@@ -1,0 +1,89 @@
+html, body{
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #ffd148;
+}
+
+.FullDiv{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 12%;
+	right: 30%;
+}
+
+.LeftDiv{
+	flex:2;
+}
+
+.RightDiv{
+	flex:1;
+	background-color: white;
+	width: 650px;
+	height: 500px;
+}
+img{
+	width: 400px;
+	height: 650px;
+}
+.InsDiv{
+	position: absolute;
+	top: 9%;
+	right: 13%;
+}
+p{
+	font-weight: 600;
+	font-size: 14px;
+	padding-left:20px;
+	font-family: "Arial",serif;
+}
+a{
+	color: red;
+	text-decoration:none;
+}
+span{
+	padding-left:20px;
+	font-weight: 600;
+
+}
+h1{
+	padding-left:20px;	
+	font-style: normal;
+}
+input {outline:none;}
+input[type=text]{
+	border-radius:24px;
+	border:1px solid #e3e3e8;
+	background-color: #e3e3e8;
+	width: 500px;
+	height: 55px;
+	padding-left:20px; 
+}
+input[type=password]{
+	border-radius:24px;
+	border:1px solid #e3e3e8;
+	background-color: #e3e3e8;
+	width: 500px;
+	height: 55px;
+	padding-left:20px;
+}
+input[type=submit]{
+	color: red;
+	border-radius:24px;
+	border:1px solid red;
+	background-color: white;
+	width: 500px;
+	height: 55px;
+}
+input[type=submit]:hover{
+	color: white;
+	border-radius:24px;
+	border:1px solid white;
+	background-color: red;
+	width: 500px;
+	height: 55px;
+}

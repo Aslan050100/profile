@@ -1,0 +1,153 @@
+html{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.headContent {
+  	top: 0;
+  	background-color: white;
+  	height: 100px;
+  	border-bottom: 1px solid #818487;
+  	z-index: 1;
+  	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.mainLinks{
+	display: inline-block;
+	width: 98%;
+	margin: 1% 0 0 2%;
+}
+.basket{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 10%;
+	top: 25%;
+	border:2px solid black;
+	border-radius: 5px;
+}
+.login{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 15%;
+	top: 25%;
+	border:2px solid black;
+	border-radius: 5px;
+}
+.mainLinks img:hover{
+	border-color: #818487;
+}
+.mainLinks .links{
+	text-decoration: none;
+	color: #818487;
+}
+.mainLinks .links:hover{
+	text-decoration: none;
+	color: black;
+}
+.heat{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 2%;
+}
+select{
+	width: 300px;
+	height: 35px;
+	border-radius: 7px;
+	padding: 2px;
+}
+.sorting{
+	margin:5%;
+	position: absolute;
+	right: 5%;
+	top:10%;
+}
+.content{
+	margin:0px;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	width: 24%;
+	text-align: center;
+	margin-bottom: 30px;
+	margin:5px;
+}
+.card .price {
+	margin-bottom: 15px;
+}
+.card .name{
+	font-weight: bold;
+}
+.card .add{
+	border: 0px solid #40ad60;
+	background-color: #40ad60;
+	border-radius: 24px;
+	padding: 5px;
+	margin: auto;
+	width: 120px;
+}
+.card .add a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.card .add:hover{
+	background-color: #33a053;
+}
+
+.card .photo img{
+	width: 200px;
+	height: 240px;
+}
+.info{  /*Тут его стайл делаете none 
+	потом когда используете опять block
+	и что-то сделайте с позишоном а то заебался*/
+	width: 600px;
+	height: 600px;
+	border:1px solid rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+	background-color: white;
+	position:absolute;
+	right:30%;
+	top: 15%;
+}
+.infoContent{
+	height: 33%;
+	background-color: #40ad60;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#hoveredImg{
+	width: 300px;
+	height: 400px;
+}
+.hoverme{
+	margin:auto;
+	width: 50%;
+}
+.add_info{
+	width: 120px;
+	margin: auto;
+	padding: 5px;
+	border: 0px solid white;
+	background-color: white;
+	border-radius: 20px;
+}
+.add_info a{
+	color: #40ad60;
+	text-transform: uppercase;
+	font-size: 12px;
+}
